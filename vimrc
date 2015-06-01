@@ -39,7 +39,7 @@ syntax on		" syntax highlight
 set hlsearch		" search highlighting
 
 if has("gui_running")	" GUI color and font settings
-  set guifont=Osaka-Mono:h20
+"  set guifont=Osaka-Mono:h20
   set background=dark 
   set t_Co=256          " 256 color mode
   set cursorline        " highlight current line
@@ -289,7 +289,7 @@ let g:tex_flavor='latex'
 " --- AutoClose - Inserts matching bracket, paren, brace or quote 
 " fixed the arrow key problems caused by AutoClose
 if !has("gui_running")	
-   set term=linux
+   set term=rxvt
    imap OA <ESC>ki
    imap OB <ESC>ji
    imap OC <ESC>li
